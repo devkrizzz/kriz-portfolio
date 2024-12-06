@@ -683,7 +683,7 @@ textarea {
   border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
-  background: #0062b9;
+  background: hsla(0, 0%, 100%, 0);
 }
 @media only screen and (max-width: 56.25em) {
   .header__logo-img-cont {
@@ -1021,4 +1021,20 @@ a:hover {
 body {
   background-color: #191a1b;
   color: #cbc5bc;
+}
+
+.cta-container {
+  text-align: center;
+  margin: 1rem auto; /* Add space above and below */
+  padding: 1rem;
+}
+
+.cta-btn-container {
+  margin-top: 1rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto; /* Center the button */
 }
