@@ -129,7 +129,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #0062b9;
+  background: #8697a7;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -172,8 +172,8 @@ textarea {
 }
 
 .btn {
-  background: #fff;
-  color: #333;
+  background: #1c1d1e;
+  color: #cbc5bc;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -235,8 +235,8 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
     ),
     url(../../assets/svg/common-bg.svg);
   background-position: center;
@@ -254,8 +254,8 @@ textarea {
 .home-hero__socials {
   position: absolute;
   top: 50%;
-  border: 2px solid #eee;
-  border-left: 2px solid #eee;
+  border: 2px solid #1c1d1e;
+  border-left: 2px solid #1c1d1e;
   transform: translateY(-50%);
 }
 @media only screen and (max-width: 56.25em) {
@@ -281,7 +281,7 @@ textarea {
   width: 100%;
   display: block;
   padding: 1.2rem;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #1c1d1e;
   transition: background 0.3s;
 }
 .home-hero__social-icon-link:hover {
@@ -319,7 +319,8 @@ textarea {
 }
 
 .about {
-  background: #fafafa;
+  background: #1c1d1e;
+  color: #cbc5bc;
 }
 .about__content {
   display: grid;
@@ -651,8 +652,8 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  background: #0080ff;
+  background: #191a1b;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
 .header__content {
@@ -703,6 +704,7 @@ textarea {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+  color: #cbc5bc;
 }
 .header__links {
   display: flex;
@@ -716,7 +718,7 @@ textarea {
   padding: 2.2rem 3rem;
   display: inline-block;
   font-size: 1.6rem;
-  color: #333;
+  color: #cbc5bc;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -786,7 +788,7 @@ textarea {
   color: #0062b9;
 }
 .header__sm-menu-link:first-child a {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #191a1b;
 }
 .header__sm-menu-link-last {
   border-bottom: 0;
@@ -978,7 +980,7 @@ textarea {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #f5f5f5;
+  background-color: #00000000;
   border-radius: 10px;
 }
 
@@ -998,16 +1000,25 @@ textarea {
     color-stop(0.86, rgb(28, 58, 148))
   );
 }
-.youtube-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
-  gap: 20px; /* Spacing between grid items */
-  padding: 20px; /* Padding around the grid */
+
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.youtube-grid__item iframe {
-  width: 100%; /* Full width within the grid item */
-  aspect-ratio: 16 / 9; /* Ensures consistent video aspect ratio */
-  border-radius: 8px; /* Rounded corners (optional) */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Apply similar updates for all elements using custom properties */
+body {
+  background-color: #191a1b;
+  color: #cbc5bc;
 }
