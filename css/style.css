@@ -1051,3 +1051,14 @@ body {
 .cta-btn:hover {
   transform: translateY(-3px);
 }
+
+.about__content-buttons {
+  display: flex;
+  gap: 1rem; /* Adds space between the buttons */
+  margin-top: 1rem; /* Adjusts spacing above the button group */
+}
+
+.btn-yt-theme {
+  background: #b90000bb;
+  color: #fff;
+}
