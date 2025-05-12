@@ -89,7 +89,7 @@ textarea {
 }
 
 .heading-sec__mb-bg {
-  margin-bottom: 11rem;
+  margin-bottom: 3rem;
 }
 @media only screen and (max-width: 56.25em) {
   .heading-sec__mb-bg {
@@ -169,6 +169,7 @@ textarea {
   max-width: 120rem;
   margin: auto;
   width: 92%;
+  padding: 0 2rem;
 }
 
 .btn {
@@ -206,7 +207,7 @@ textarea {
 }
 
 .sec-pad {
-  padding: 12rem 0;
+  padding: 12rem 12rem;
 }
 @media only screen and (max-width: 56.25em) {
   .sec-pad {
@@ -321,6 +322,10 @@ textarea {
 .about {
   background: #1c1d1e;
   color: #cbc5bc;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
+  position: relative;
 }
 .about__content {
   display: grid;
@@ -346,7 +351,6 @@ textarea {
 .about__content-details-para {
   font-size: 1.8rem;
   color: grey;
-  max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -652,15 +656,14 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #0080ff;
   background: #191a1b;
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 .header__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
 }
 @media only screen and (max-width: 56.25em) {
   .header__content {
@@ -750,7 +753,7 @@ textarea {
   width: 100%;
 }
 .header__sm-menu {
-  background: #fff;
+  background: #191a1b;
   position: absolute;
   width: 100%;
   top: 100%;
@@ -878,7 +881,7 @@ textarea {
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
   font-weight: 600;
-  color: #777;
+  color: #bbbbbb;
 }
 
 .mouse {

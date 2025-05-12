@@ -2,34 +2,41 @@
 <html lang="en" data-darkreader-scheme="dark">
 
 <head>
+  <!-- Metadata for character encoding, viewport settings, and compatibility -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Metadata | Used for discord embed api as well -->
+
+  <!-- Metadata for SEO and social media embeds -->
   <title>Kriz</title>
   <meta name="description" content="A really cool portfolio. You should check it out" />
   <meta name="image" content="https://cdn.discordapp.com/attachments/1177252082332471326/1314998691018440807/OBJNal8.png?ex=6755cf77&is=67547df7&hm=b1d661194258fe7143f64ed60db3fb8df7798ca69d3e141455e4fa99d0af83c6&">
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="/assets/png/kriz.png" type="image/x-icon">
-  <!-- CSS -->
+
+  <!-- Link to external CSS -->
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Font -->
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-
+  <!-- Header Section -->
   <header class="header">
-    
     <div class="header__content">
+      <!-- Logo Section -->
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
           <img src="./assets/png/kriz.png" alt="Image" class="header__logo-img" />
         </div>
         <span class="header__logo-sub">Kriz</span>
       </div>
+
+      <!-- Navigation Links -->
       <div class="header__main">
         <ul class="header__links">
           <li class="header__link-wrapper">
@@ -39,36 +46,34 @@
             <a href="./index.html#about" class="header__link">About </a>
           </li>
           <li class="header__link-wrapper">
-            <a href="./index.html#projects" class="header__link">
-              Projects
-            </a>
+            <a href="./index.html#projects" class="header__link"> Projects </a>
           </li>
           <li class="header__link-wrapper">
             <a href="./index.html#contact" class="header__link"> Contact </a>
           </li>
         </ul>
+
+        <!-- Hamburger Menu for Mobile -->
         <div class="header__main-ham-menu-cont">
           <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
-            class="header__main-ham-menu-close d-none" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
         </div>
       </div>
     </div>
+
+    <!-- Small Screen Menu -->
     <div class="header__sm-menu">
       <div class="header__sm-menu-content">
         <ul class="header__sm-menu-links">
           <li class="header__sm-menu-link">
             <a href="./index.html"> Home </a>
           </li>
-
           <li class="header__sm-menu-link">
             <a href="./index.html#about"> About </a>
           </li>
-
           <li class="header__sm-menu-link">
             <a href="./index.html#projects"> Projects </a>
           </li>
-
           <li class="header__sm-menu-link">
             <a href="./index.html#contact"> Contact </a>
           </li>
@@ -76,54 +81,37 @@
       </div>
     </div>
   </header>
+
+  <!-- Hero Section -->
   <section class="home-hero">
     <div class="home-hero__content">
       <h1 class="heading-primary">Kriz</h1>
       <div class="home-hero__info">
-        <p class="text-primary">
-          A reall cool multitasker guy
-        </p>
+        <p class="text-primary">"The greatest editor that ever lived?"</p>
       </div>
       <div class="home-hero__cta">
-        <a href="./#projects" class="btn btn--bg">Let's Go</a>
-      </div>
-    </div>
-    <div class="home-hero__socials">
-      <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link" data-hover="GitHub">
-          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link" data-hover="Twitter">
-          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link" data-hover="YouTube">
-          <img src="./assets/png/yt-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" data-hover="Instagram">
-          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
+        <a href="./#about" class="btn btn--bg">Let's Go</a>
       </div>
     </div>
 
+    
+
+    <!-- Scroll Indicator -->
     <div class="home-hero__mouse-scroll-cont">
       <div class="mouse"></div>
     </div>
   </section>
+
+  <!-- About Section -->
   <section id="about" class="about sec-pad">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-med">
         <span class="heading-sec__main">About Me</span>
-        <span class="heading-sec__sub">
-        </span>
+        <span class="heading-sec__sub"></span>
       </h2>
       <div class="about__content">
-        <div class="about__content-main">
+        
+        <div class="">
           <h3 class="about__content-title">Get to know me!</h3>
           <div class="about__content-details">
             <p class="about__content-details-para">
@@ -137,41 +125,47 @@
           </div>
           <div class="about__content-buttons">
             <a href="https://www.youtube.com/@Kriz350" class="btn btn--med btn-yt-theme dynamicBgClr">Youtube</a>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+            <a href="mailto:contact.krizxter@gmail.com" class="btn btn--med btn--theme dynamicBgClr">Contact Me</a>
           </div>
         </div>
-        <div class="about__content-skills">
-          <h3 class="about__content-title">My Skills</h3>
-          <div class="skills">
-            <div class="skills__skill">Editor</div>
-            <div class="skills__skill">Musician</div>
-            <div class="skills__skill">Footballer</div>
-            <div class="skills__skill">More Soon...</div>
+
+        <!-- Skills Section -->
+        
+        <div class="about__content-main">
+          <div class="about__content-workhours">
+            <h3 class="about__content-title">My Editing Workhours</h3>
+            <div class="about__content-details">
+              <div class="about__content-details-para">
+                <p>My work hours are <strong> flexible</strong> and depend on my school schedule and other commitments. I usually edit in the evenings after school and on weekends when I have more free time. On average, I spend around 2-3 hours on weekdays and 4-5 hours on weekends.</p>
+                <div style="margin-top: 1rem;"></div>
+                <p><strong>Weekdays (Monday to Friday) </strong> - 2-3 Hours</p>
+                <p> <strong>Weekends (Saturday and Sunday)</strong> - 4-5 Hours</p> 
+                <div style="margin-top: 1rem;"></div>
+                <p>Feel free to reach out to me for any editing projects or collaborations. I'm always open to new opportunities and challenges!</p>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
   </section>
+  
 
-  <!-- PROJECT SECTION -->
+  <!-- Projects Section -->
   <section id="projects" class="projects sec-pad">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-bg">
         <span class="heading-sec__main">Projects</span>
-        <span class="heading-sec__sub">
-          Here are my cool videos which i have created till now!
-        </span>
+        <span class="heading-sec__sub">Here are my cool videos which I have created till now!</span>
       </h2>
 
       <div class="projects__content">
-        <!-- VIDEO 1 -->
+        <!-- Video 1 -->
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <!-- VIDEO LINK -->
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/n4P-tAh3xQY"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/n4P-tAh3xQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Valorant : Funny Montages</h3>
@@ -180,10 +174,7 @@
               Edited in : Adobe Premiere Pro 2023 <br>
               Thumbnail : Adobe Photoshop 2023
             </p>
-            <!-- BUTTON LINK -->
-            <a href="https://youtu.be/n4P-tAh3xQY" class="btn btn--med btn--theme dynamicBgClr" target="_blank">
-              Check it out!
-            </a>
+            <a href="https://youtu.be/n4P-tAh3xQY" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Check it out!</a>
           </div>
         </div>
         <!-- VIDEO 2 -->
@@ -260,19 +251,10 @@
             <span>Social</span>
           </h2>
           <div class="main-footer__social-cont">
-            <a target="_blank" rel="noreferrer" href="#">
-              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="#">
+            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC8S71izzM0MNkwJv4ks8hzw">
               <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
             </a>
-            <a target="_blank" rel="noreferrer" href="#">
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/krizxter.ae/">
               <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
             </a>
           </div>
@@ -287,7 +269,7 @@
 
       <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
       <div class="main-footer__lower">
-        &copy; Copyright 2021. Made by
+        &copy; Copyright 2025. Redesigned by
         <a rel="noreferrer" target="_blank" href="https://kriz.vercel.app/">Kriz</a>
       </div>
     </div>
